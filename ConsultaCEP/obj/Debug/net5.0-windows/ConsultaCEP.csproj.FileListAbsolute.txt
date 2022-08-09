@@ -1,11 +1,3 @@
-C:\Users\User\Projetos\ConsultaCEP\ConsultaCEP\obj\Debug\net5.0-windows\ConsultaCEP.csproj.AssemblyReference.cache
-C:\Users\User\Projetos\ConsultaCEP\ConsultaCEP\obj\Debug\net5.0-windows\ConsultaCEP.FrmConsultaCEP.resources
-C:\Users\User\Projetos\ConsultaCEP\ConsultaCEP\obj\Debug\net5.0-windows\ConsultaCEP.Properties.Resources.resources
-C:\Users\User\Projetos\ConsultaCEP\ConsultaCEP\obj\Debug\net5.0-windows\ConsultaCEP.csproj.GenerateResource.cache
-C:\Users\User\Projetos\ConsultaCEP\ConsultaCEP\obj\Debug\net5.0-windows\ConsultaCEP.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\User\Projetos\ConsultaCEP\ConsultaCEP\obj\Debug\net5.0-windows\ConsultaCEP.AssemblyInfoInputs.cache
-C:\Users\User\Projetos\ConsultaCEP\ConsultaCEP\obj\Debug\net5.0-windows\ConsultaCEP.AssemblyInfo.cs
-C:\Users\User\Projetos\ConsultaCEP\ConsultaCEP\obj\Debug\net5.0-windows\ConsultaCEP.csproj.CoreCompileInputs.cache
 C:\Users\User\Projetos\ConsultaCEP\ConsultaCEP\bin\Debug\net5.0-windows\ConsultaCEP.exe
 C:\Users\User\Projetos\ConsultaCEP\ConsultaCEP\bin\Debug\net5.0-windows\ConsultaCEP.deps.json
 C:\Users\User\Projetos\ConsultaCEP\ConsultaCEP\bin\Debug\net5.0-windows\ConsultaCEP.runtimeconfig.json
@@ -42,6 +34,14 @@ C:\Users\User\Projetos\ConsultaCEP\ConsultaCEP\bin\Debug\net5.0-windows\System.S
 C:\Users\User\Projetos\ConsultaCEP\ConsultaCEP\bin\Debug\net5.0-windows\System.ServiceModel.Primitives.dll
 C:\Users\User\Projetos\ConsultaCEP\ConsultaCEP\bin\Debug\net5.0-windows\System.ServiceModel.dll
 C:\Users\User\Projetos\ConsultaCEP\ConsultaCEP\bin\Debug\net5.0-windows\System.ServiceModel.Security.dll
+C:\Users\User\Projetos\ConsultaCEP\ConsultaCEP\obj\Debug\net5.0-windows\ConsultaCEP.csproj.AssemblyReference.cache
+C:\Users\User\Projetos\ConsultaCEP\ConsultaCEP\obj\Debug\net5.0-windows\ConsultaCEP.FrmConsultaCEP.resources
+C:\Users\User\Projetos\ConsultaCEP\ConsultaCEP\obj\Debug\net5.0-windows\ConsultaCEP.Properties.Resources.resources
+C:\Users\User\Projetos\ConsultaCEP\ConsultaCEP\obj\Debug\net5.0-windows\ConsultaCEP.csproj.GenerateResource.cache
+C:\Users\User\Projetos\ConsultaCEP\ConsultaCEP\obj\Debug\net5.0-windows\ConsultaCEP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Projetos\ConsultaCEP\ConsultaCEP\obj\Debug\net5.0-windows\ConsultaCEP.AssemblyInfoInputs.cache
+C:\Users\User\Projetos\ConsultaCEP\ConsultaCEP\obj\Debug\net5.0-windows\ConsultaCEP.AssemblyInfo.cs
+C:\Users\User\Projetos\ConsultaCEP\ConsultaCEP\obj\Debug\net5.0-windows\ConsultaCEP.csproj.CoreCompileInputs.cache
 C:\Users\User\Projetos\ConsultaCEP\ConsultaCEP\obj\Debug\net5.0-windows\ConsultaCEP.csproj.CopyComplete
 C:\Users\User\Projetos\ConsultaCEP\ConsultaCEP\obj\Debug\net5.0-windows\ConsultaCEP.dll
 C:\Users\User\Projetos\ConsultaCEP\ConsultaCEP\obj\Debug\net5.0-windows\refint\ConsultaCEP.dll
