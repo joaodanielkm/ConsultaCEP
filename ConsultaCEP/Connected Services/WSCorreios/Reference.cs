@@ -509,7 +509,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="buscaServicosAdicionaisAtivos", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class buscaServicosAdicionaisAtivos
     {
@@ -535,7 +534,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="buscaServicosAdicionaisAtivosResponse", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class buscaServicosAdicionaisAtivosResponse
     {
@@ -556,7 +554,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="fechaPlp", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class fechaPlp
     {
@@ -602,7 +599,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="fechaPlpResponse", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class fechaPlpResponse
     {
@@ -623,7 +619,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="calculaTarifaServico", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class calculaTarifaServico
     {
@@ -714,7 +709,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="calculaTarifaServicoResponse", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class calculaTarifaServicoResponse
     {
@@ -735,7 +729,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="validaPlp", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class validaPlp
     {
@@ -796,7 +789,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="validaPlpResponse", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class validaPlpResponse
     {
@@ -4641,7 +4633,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="VerificaSeTodosObjetosCancelados", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class VerificaSeTodosObjetosCancelados
     {
@@ -4662,7 +4653,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="VerificaSeTodosObjetosCanceladosResponse", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class VerificaSeTodosObjetosCanceladosResponse
     {
@@ -4683,7 +4673,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="cancelarObjeto", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class cancelarObjeto
     {
@@ -4719,7 +4708,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="cancelarObjetoResponse", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class cancelarObjetoResponse
     {
@@ -4916,7 +4904,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="pesquisarParametrosPorDescricao", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class pesquisarParametrosPorDescricao
     {
@@ -4937,7 +4924,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="pesquisarParametrosPorDescricaoResponse", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class pesquisarParametrosPorDescricaoResponse
     {
@@ -4958,7 +4944,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="atualizaPagamentoNaEntrega", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class atualizaPagamentoNaEntrega
     {
@@ -4984,7 +4969,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="atualizaPagamentoNaEntregaResponse", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class atualizaPagamentoNaEntregaResponse
     {
@@ -5005,7 +4989,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="obterClienteAtualizacao", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class obterClienteAtualizacao
     {
@@ -5036,7 +5019,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="obterClienteAtualizacaoResponse", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class obterClienteAtualizacaoResponse
     {
@@ -5057,7 +5039,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="verificaDisponibilidadeServico", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class verificaDisponibilidadeServico
     {
@@ -5103,7 +5084,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="verificaDisponibilidadeServicoResponse", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class verificaDisponibilidadeServicoResponse
     {
@@ -5124,7 +5104,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="fechaPlpVariosServicos", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class fechaPlpVariosServicos
     {
@@ -5170,7 +5149,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="fechaPlpVariosServicosResponse", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class fechaPlpVariosServicosResponse
     {
@@ -5191,7 +5169,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="geraDigitoVerificadorEtiquetas", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class geraDigitoVerificadorEtiquetas
     {
@@ -5222,7 +5199,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="geraDigitoVerificadorEtiquetasResponse", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class geraDigitoVerificadorEtiquetasResponse
     {
@@ -5299,7 +5275,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="obterEmbalagemLRS", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class obterEmbalagemLRS
     {
@@ -5311,7 +5286,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="obterEmbalagemLRSResponse", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class obterEmbalagemLRSResponse
     {
@@ -5332,7 +5306,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="validaEtiquetaPLP", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class validaEtiquetaPLP
     {
@@ -5368,7 +5341,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="validaEtiquetaPLPResponse", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class validaEtiquetaPLPResponse
     {
@@ -5389,7 +5361,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="buscaServicosValorDeclarado", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class buscaServicosValorDeclarado
     {
@@ -5415,7 +5386,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="buscaServicosValorDeclaradoResponse", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class buscaServicosValorDeclaradoResponse
     {
@@ -5436,7 +5406,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="consultaCEP", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class consultaCEP
     {
@@ -5457,7 +5426,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="consultaCEPResponse", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class consultaCEPResponse
     {
@@ -5478,7 +5446,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="integrarUsuarioScol", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class integrarUsuarioScol
     {
@@ -5509,7 +5476,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="integrarUsuarioScolResponse", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class integrarUsuarioScolResponse
     {
@@ -5530,7 +5496,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="pesquisarDimensoesServico", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class pesquisarDimensoesServico
     {
@@ -5556,7 +5521,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="pesquisarDimensoesServicoResponse", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class pesquisarDimensoesServicoResponse
     {
@@ -5593,7 +5557,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="pesquisarEmbalagensPorServico", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class pesquisarEmbalagensPorServico
     {
@@ -5614,7 +5577,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="pesquisarEmbalagensPorServicoResponse", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class pesquisarEmbalagensPorServicoResponse
     {
@@ -5635,7 +5597,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="atualizaRemessaAgrupada", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class atualizaRemessaAgrupada
     {
@@ -5661,7 +5622,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="atualizaRemessaAgrupadaResponse", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class atualizaRemessaAgrupadaResponse
     {
@@ -5682,7 +5642,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="solicitaPLP", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class solicitaPLP
     {
@@ -5718,7 +5677,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="solicitaPLPResponse", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class solicitaPLPResponse
     {
@@ -5761,7 +5719,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="getStatusCartaoPostagem", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class getStatusCartaoPostagem
     {
@@ -5792,7 +5749,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="getStatusCartaoPostagemResponse", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class getStatusCartaoPostagemResponse
     {
@@ -5813,7 +5769,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="verificaModalTransporte", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class verificaModalTransporte
     {
@@ -5854,7 +5809,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="verificaModalTransporteResponse", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class verificaModalTransporteResponse
     {
@@ -5875,7 +5829,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="buscaDataAtual", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class buscaDataAtual
     {
@@ -5887,7 +5840,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="buscaDataAtualResponse", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class buscaDataAtualResponse
     {
@@ -6540,7 +6492,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="buscaTarifaVale", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class buscaTarifaVale
     {
@@ -6621,7 +6572,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="buscaTarifaValeResponse", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class buscaTarifaValeResponse
     {
@@ -7373,7 +7323,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="validarPostagemSimultanea", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class validarPostagemSimultanea
     {
@@ -7424,7 +7373,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="validarPostagemSimultaneaResponse", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class validarPostagemSimultaneaResponse
     {
@@ -7445,7 +7393,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="getStatusPLP", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class getStatusPLP
     {
@@ -7471,7 +7418,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="getStatusPLPResponse", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class getStatusPLPResponse
     {
@@ -7564,7 +7510,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="pesquisarServicosAdicionais", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class pesquisarServicosAdicionais
     {
@@ -7585,7 +7530,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="pesquisarServicosAdicionaisResponse", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class pesquisarServicosAdicionaisResponse
     {
@@ -7606,7 +7550,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="buscaServicosXServicosAdicionais", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class buscaServicosXServicosAdicionais
     {
@@ -7632,7 +7575,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="buscaServicosXServicosAdicionaisResponse", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class buscaServicosXServicosAdicionaisResponse
     {
@@ -7829,7 +7771,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="cancelarPedidoScol", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class cancelarPedidoScol
     {
@@ -7870,7 +7811,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="cancelarPedidoScolResponse", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class cancelarPedidoScolResponse
     {
@@ -7932,7 +7872,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="bloquearObjeto", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class bloquearObjeto
     {
@@ -7978,7 +7917,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="bloquearObjetoResponse", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class bloquearObjetoResponse
     {
@@ -7999,7 +7937,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="buscaContrato", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class buscaContrato
     {
@@ -8035,7 +7972,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="buscaContratoResponse", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class buscaContratoResponse
     {
@@ -8056,7 +7992,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="solicitaEtiquetas", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class solicitaEtiquetas
     {
@@ -8102,7 +8037,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="solicitaEtiquetasResponse", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class solicitaEtiquetasResponse
     {
@@ -8123,7 +8057,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="solicitaXmlPlp", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class solicitaXmlPlp
     {
@@ -8154,7 +8087,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="solicitaXmlPlpResponse", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class solicitaXmlPlpResponse
     {
@@ -8175,7 +8107,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="validarPostagemReversa", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class validarPostagemReversa
     {
@@ -8226,7 +8157,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="validarPostagemReversaResponse", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class validarPostagemReversaResponse
     {
@@ -8247,7 +8177,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="buscaCliente", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class buscaCliente
     {
@@ -8283,7 +8212,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="buscaClienteResponse", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class buscaClienteResponse
     {
@@ -8304,7 +8232,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="buscaPagamentoEntrega", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class buscaPagamentoEntrega
     {
@@ -8350,7 +8277,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="buscaPagamentoEntregaResponse", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class buscaPagamentoEntregaResponse
     {
@@ -8371,7 +8297,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="solicitarPostagemScol", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class solicitarPostagemScol
     {
@@ -8407,7 +8332,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="solicitarPostagemScolResponse", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class solicitarPostagemScolResponse
     {
@@ -8428,7 +8352,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="buscaServicos", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class buscaServicos
     {
@@ -8464,7 +8387,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="buscaServicosResponse", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class buscaServicosResponse
     {
@@ -8573,7 +8495,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="obterMensagemParametrizada", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class obterMensagemParametrizada
     {
@@ -8594,7 +8515,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="obterMensagemParametrizadaResponse", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class obterMensagemParametrizadaResponse
     {
@@ -8615,7 +8535,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="buscaOpcoes", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class buscaOpcoes
     {
@@ -8651,7 +8570,6 @@ namespace WSCorreios
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.3")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(WrapperName="buscaOpcoesResponse", WrapperNamespace="http://cliente.bean.master.sigep.bsb.correios.com.br/", IsWrapped=true)]
     public partial class buscaOpcoesResponse
     {
@@ -8720,660 +8638,209 @@ namespace WSCorreios
         {
         }
         
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WSCorreios.buscaServicosAdicionaisAtivosResponse> WSCorreios.AtendeCliente.buscaServicosAdicionaisAtivosAsync(WSCorreios.buscaServicosAdicionaisAtivos request)
+        public System.Threading.Tasks.Task<WSCorreios.buscaServicosAdicionaisAtivosResponse> buscaServicosAdicionaisAtivosAsync(WSCorreios.buscaServicosAdicionaisAtivos request)
         {
             return base.Channel.buscaServicosAdicionaisAtivosAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WSCorreios.buscaServicosAdicionaisAtivosResponse> buscaServicosAdicionaisAtivosAsync(string usuario, string senha)
-        {
-            WSCorreios.buscaServicosAdicionaisAtivos inValue = new WSCorreios.buscaServicosAdicionaisAtivos();
-            inValue.usuario = usuario;
-            inValue.senha = senha;
-            return ((WSCorreios.AtendeCliente)(this)).buscaServicosAdicionaisAtivosAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WSCorreios.fechaPlpResponse> WSCorreios.AtendeCliente.fechaPlpAsync(WSCorreios.fechaPlp request)
+        public System.Threading.Tasks.Task<WSCorreios.fechaPlpResponse> fechaPlpAsync(WSCorreios.fechaPlp request)
         {
             return base.Channel.fechaPlpAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WSCorreios.fechaPlpResponse> fechaPlpAsync(string xml, long idPlpCliente, string cartaoPostagem, string faixaEtiquetas, string usuario, string senha)
-        {
-            WSCorreios.fechaPlp inValue = new WSCorreios.fechaPlp();
-            inValue.xml = xml;
-            inValue.idPlpCliente = idPlpCliente;
-            inValue.cartaoPostagem = cartaoPostagem;
-            inValue.faixaEtiquetas = faixaEtiquetas;
-            inValue.usuario = usuario;
-            inValue.senha = senha;
-            return ((WSCorreios.AtendeCliente)(this)).fechaPlpAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WSCorreios.calculaTarifaServicoResponse> WSCorreios.AtendeCliente.calculaTarifaServicoAsync(WSCorreios.calculaTarifaServico request)
+        public System.Threading.Tasks.Task<WSCorreios.calculaTarifaServicoResponse> calculaTarifaServicoAsync(WSCorreios.calculaTarifaServico request)
         {
             return base.Channel.calculaTarifaServicoAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WSCorreios.calculaTarifaServicoResponse> calculaTarifaServicoAsync(string codAdministrativo, string usuario, string senha, string codServico, string cepOrigem, string cepDestino, string peso, int codFormato, double comprimento, double altura, double largura, double diametro, string codMaoPropria, double valorDeclarado, string codAvisoRecebimento)
-        {
-            WSCorreios.calculaTarifaServico inValue = new WSCorreios.calculaTarifaServico();
-            inValue.codAdministrativo = codAdministrativo;
-            inValue.usuario = usuario;
-            inValue.senha = senha;
-            inValue.codServico = codServico;
-            inValue.cepOrigem = cepOrigem;
-            inValue.cepDestino = cepDestino;
-            inValue.peso = peso;
-            inValue.codFormato = codFormato;
-            inValue.comprimento = comprimento;
-            inValue.altura = altura;
-            inValue.largura = largura;
-            inValue.diametro = diametro;
-            inValue.codMaoPropria = codMaoPropria;
-            inValue.valorDeclarado = valorDeclarado;
-            inValue.codAvisoRecebimento = codAvisoRecebimento;
-            return ((WSCorreios.AtendeCliente)(this)).calculaTarifaServicoAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WSCorreios.validaPlpResponse> WSCorreios.AtendeCliente.validaPlpAsync(WSCorreios.validaPlp request)
+        public System.Threading.Tasks.Task<WSCorreios.validaPlpResponse> validaPlpAsync(WSCorreios.validaPlp request)
         {
             return base.Channel.validaPlpAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WSCorreios.validaPlpResponse> validaPlpAsync(long cliente, string numero, long diretoria, string cartao, string unidadePostagem, long servico, string[] servicosAdicionais, string usuario, string senha)
-        {
-            WSCorreios.validaPlp inValue = new WSCorreios.validaPlp();
-            inValue.cliente = cliente;
-            inValue.numero = numero;
-            inValue.diretoria = diretoria;
-            inValue.cartao = cartao;
-            inValue.unidadePostagem = unidadePostagem;
-            inValue.servico = servico;
-            inValue.servicosAdicionais = servicosAdicionais;
-            inValue.usuario = usuario;
-            inValue.senha = senha;
-            return ((WSCorreios.AtendeCliente)(this)).validaPlpAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WSCorreios.VerificaSeTodosObjetosCanceladosResponse> WSCorreios.AtendeCliente.VerificaSeTodosObjetosCanceladosAsync(WSCorreios.VerificaSeTodosObjetosCancelados request)
+        public System.Threading.Tasks.Task<WSCorreios.VerificaSeTodosObjetosCanceladosResponse> VerificaSeTodosObjetosCanceladosAsync(WSCorreios.VerificaSeTodosObjetosCancelados request)
         {
             return base.Channel.VerificaSeTodosObjetosCanceladosAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WSCorreios.VerificaSeTodosObjetosCanceladosResponse> VerificaSeTodosObjetosCanceladosAsync(WSCorreios.objetoPostal[] arg0)
-        {
-            WSCorreios.VerificaSeTodosObjetosCancelados inValue = new WSCorreios.VerificaSeTodosObjetosCancelados();
-            inValue.arg0 = arg0;
-            return ((WSCorreios.AtendeCliente)(this)).VerificaSeTodosObjetosCanceladosAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WSCorreios.cancelarObjetoResponse> WSCorreios.AtendeCliente.cancelarObjetoAsync(WSCorreios.cancelarObjeto request)
+        public System.Threading.Tasks.Task<WSCorreios.cancelarObjetoResponse> cancelarObjetoAsync(WSCorreios.cancelarObjeto request)
         {
             return base.Channel.cancelarObjetoAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WSCorreios.cancelarObjetoResponse> cancelarObjetoAsync(long idPlp, string numeroEtiqueta, string usuario, string senha)
-        {
-            WSCorreios.cancelarObjeto inValue = new WSCorreios.cancelarObjeto();
-            inValue.idPlp = idPlp;
-            inValue.numeroEtiqueta = numeroEtiqueta;
-            inValue.usuario = usuario;
-            inValue.senha = senha;
-            return ((WSCorreios.AtendeCliente)(this)).cancelarObjetoAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WSCorreios.pesquisarParametrosPorDescricaoResponse> WSCorreios.AtendeCliente.pesquisarParametrosPorDescricaoAsync(WSCorreios.pesquisarParametrosPorDescricao request)
+        public System.Threading.Tasks.Task<WSCorreios.pesquisarParametrosPorDescricaoResponse> pesquisarParametrosPorDescricaoAsync(WSCorreios.pesquisarParametrosPorDescricao request)
         {
             return base.Channel.pesquisarParametrosPorDescricaoAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WSCorreios.pesquisarParametrosPorDescricaoResponse> pesquisarParametrosPorDescricaoAsync(string prefix)
-        {
-            WSCorreios.pesquisarParametrosPorDescricao inValue = new WSCorreios.pesquisarParametrosPorDescricao();
-            inValue.prefix = prefix;
-            return ((WSCorreios.AtendeCliente)(this)).pesquisarParametrosPorDescricaoAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WSCorreios.atualizaPagamentoNaEntregaResponse> WSCorreios.AtendeCliente.atualizaPagamentoNaEntregaAsync(WSCorreios.atualizaPagamentoNaEntrega request)
+        public System.Threading.Tasks.Task<WSCorreios.atualizaPagamentoNaEntregaResponse> atualizaPagamentoNaEntregaAsync(WSCorreios.atualizaPagamentoNaEntrega request)
         {
             return base.Channel.atualizaPagamentoNaEntregaAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WSCorreios.atualizaPagamentoNaEntregaResponse> atualizaPagamentoNaEntregaAsync(string usuario, string senha)
-        {
-            WSCorreios.atualizaPagamentoNaEntrega inValue = new WSCorreios.atualizaPagamentoNaEntrega();
-            inValue.usuario = usuario;
-            inValue.senha = senha;
-            return ((WSCorreios.AtendeCliente)(this)).atualizaPagamentoNaEntregaAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WSCorreios.obterClienteAtualizacaoResponse> WSCorreios.AtendeCliente.obterClienteAtualizacaoAsync(WSCorreios.obterClienteAtualizacao request)
+        public System.Threading.Tasks.Task<WSCorreios.obterClienteAtualizacaoResponse> obterClienteAtualizacaoAsync(WSCorreios.obterClienteAtualizacao request)
         {
             return base.Channel.obterClienteAtualizacaoAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WSCorreios.obterClienteAtualizacaoResponse> obterClienteAtualizacaoAsync(string cnpjCliente, string usuario, string senha)
-        {
-            WSCorreios.obterClienteAtualizacao inValue = new WSCorreios.obterClienteAtualizacao();
-            inValue.cnpjCliente = cnpjCliente;
-            inValue.usuario = usuario;
-            inValue.senha = senha;
-            return ((WSCorreios.AtendeCliente)(this)).obterClienteAtualizacaoAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WSCorreios.verificaDisponibilidadeServicoResponse> WSCorreios.AtendeCliente.verificaDisponibilidadeServicoAsync(WSCorreios.verificaDisponibilidadeServico request)
+        public System.Threading.Tasks.Task<WSCorreios.verificaDisponibilidadeServicoResponse> verificaDisponibilidadeServicoAsync(WSCorreios.verificaDisponibilidadeServico request)
         {
             return base.Channel.verificaDisponibilidadeServicoAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WSCorreios.verificaDisponibilidadeServicoResponse> verificaDisponibilidadeServicoAsync(int codAdministrativo, string numeroServico, string cepOrigem, string cepDestino, string usuario, string senha)
-        {
-            WSCorreios.verificaDisponibilidadeServico inValue = new WSCorreios.verificaDisponibilidadeServico();
-            inValue.codAdministrativo = codAdministrativo;
-            inValue.numeroServico = numeroServico;
-            inValue.cepOrigem = cepOrigem;
-            inValue.cepDestino = cepDestino;
-            inValue.usuario = usuario;
-            inValue.senha = senha;
-            return ((WSCorreios.AtendeCliente)(this)).verificaDisponibilidadeServicoAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WSCorreios.fechaPlpVariosServicosResponse> WSCorreios.AtendeCliente.fechaPlpVariosServicosAsync(WSCorreios.fechaPlpVariosServicos request)
+        public System.Threading.Tasks.Task<WSCorreios.fechaPlpVariosServicosResponse> fechaPlpVariosServicosAsync(WSCorreios.fechaPlpVariosServicos request)
         {
             return base.Channel.fechaPlpVariosServicosAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WSCorreios.fechaPlpVariosServicosResponse> fechaPlpVariosServicosAsync(string xml, long idPlpCliente, string cartaoPostagem, string[] listaEtiquetas, string usuario, string senha)
-        {
-            WSCorreios.fechaPlpVariosServicos inValue = new WSCorreios.fechaPlpVariosServicos();
-            inValue.xml = xml;
-            inValue.idPlpCliente = idPlpCliente;
-            inValue.cartaoPostagem = cartaoPostagem;
-            inValue.listaEtiquetas = listaEtiquetas;
-            inValue.usuario = usuario;
-            inValue.senha = senha;
-            return ((WSCorreios.AtendeCliente)(this)).fechaPlpVariosServicosAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WSCorreios.geraDigitoVerificadorEtiquetasResponse> WSCorreios.AtendeCliente.geraDigitoVerificadorEtiquetasAsync(WSCorreios.geraDigitoVerificadorEtiquetas request)
+        public System.Threading.Tasks.Task<WSCorreios.geraDigitoVerificadorEtiquetasResponse> geraDigitoVerificadorEtiquetasAsync(WSCorreios.geraDigitoVerificadorEtiquetas request)
         {
             return base.Channel.geraDigitoVerificadorEtiquetasAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WSCorreios.geraDigitoVerificadorEtiquetasResponse> geraDigitoVerificadorEtiquetasAsync(string[] etiquetas, string usuario, string senha)
-        {
-            WSCorreios.geraDigitoVerificadorEtiquetas inValue = new WSCorreios.geraDigitoVerificadorEtiquetas();
-            inValue.etiquetas = etiquetas;
-            inValue.usuario = usuario;
-            inValue.senha = senha;
-            return ((WSCorreios.AtendeCliente)(this)).geraDigitoVerificadorEtiquetasAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WSCorreios.obterEmbalagemLRSResponse> WSCorreios.AtendeCliente.obterEmbalagemLRSAsync(WSCorreios.obterEmbalagemLRS request)
+        public System.Threading.Tasks.Task<WSCorreios.obterEmbalagemLRSResponse> obterEmbalagemLRSAsync(WSCorreios.obterEmbalagemLRS request)
         {
             return base.Channel.obterEmbalagemLRSAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WSCorreios.obterEmbalagemLRSResponse> obterEmbalagemLRSAsync()
-        {
-            WSCorreios.obterEmbalagemLRS inValue = new WSCorreios.obterEmbalagemLRS();
-            return ((WSCorreios.AtendeCliente)(this)).obterEmbalagemLRSAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WSCorreios.validaEtiquetaPLPResponse> WSCorreios.AtendeCliente.validaEtiquetaPLPAsync(WSCorreios.validaEtiquetaPLP request)
+        public System.Threading.Tasks.Task<WSCorreios.validaEtiquetaPLPResponse> validaEtiquetaPLPAsync(WSCorreios.validaEtiquetaPLP request)
         {
             return base.Channel.validaEtiquetaPLPAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WSCorreios.validaEtiquetaPLPResponse> validaEtiquetaPLPAsync(string numeroEtiqueta, long idPlp, string usuario, string senha)
-        {
-            WSCorreios.validaEtiquetaPLP inValue = new WSCorreios.validaEtiquetaPLP();
-            inValue.numeroEtiqueta = numeroEtiqueta;
-            inValue.idPlp = idPlp;
-            inValue.usuario = usuario;
-            inValue.senha = senha;
-            return ((WSCorreios.AtendeCliente)(this)).validaEtiquetaPLPAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WSCorreios.buscaServicosValorDeclaradoResponse> WSCorreios.AtendeCliente.buscaServicosValorDeclaradoAsync(WSCorreios.buscaServicosValorDeclarado request)
+        public System.Threading.Tasks.Task<WSCorreios.buscaServicosValorDeclaradoResponse> buscaServicosValorDeclaradoAsync(WSCorreios.buscaServicosValorDeclarado request)
         {
             return base.Channel.buscaServicosValorDeclaradoAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WSCorreios.buscaServicosValorDeclaradoResponse> buscaServicosValorDeclaradoAsync(string usuario, string senha)
-        {
-            WSCorreios.buscaServicosValorDeclarado inValue = new WSCorreios.buscaServicosValorDeclarado();
-            inValue.usuario = usuario;
-            inValue.senha = senha;
-            return ((WSCorreios.AtendeCliente)(this)).buscaServicosValorDeclaradoAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WSCorreios.consultaCEPResponse> WSCorreios.AtendeCliente.consultaCEPAsync(WSCorreios.consultaCEP request)
+        public System.Threading.Tasks.Task<WSCorreios.consultaCEPResponse> consultaCEPAsync(WSCorreios.consultaCEP request)
         {
             return base.Channel.consultaCEPAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WSCorreios.consultaCEPResponse> consultaCEP(string cep)
-        {
-            WSCorreios.consultaCEP inValue = new WSCorreios.consultaCEP();
-            inValue.cep = cep;
-            return ((WSCorreios.AtendeCliente)(this)).consultaCEPAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WSCorreios.integrarUsuarioScolResponse> WSCorreios.AtendeCliente.integrarUsuarioScolAsync(WSCorreios.integrarUsuarioScol request)
+        public System.Threading.Tasks.Task<WSCorreios.integrarUsuarioScolResponse> integrarUsuarioScolAsync(WSCorreios.integrarUsuarioScol request)
         {
             return base.Channel.integrarUsuarioScolAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WSCorreios.integrarUsuarioScolResponse> integrarUsuarioScolAsync(int codAdministrativo, string usuario, string senha)
-        {
-            WSCorreios.integrarUsuarioScol inValue = new WSCorreios.integrarUsuarioScol();
-            inValue.codAdministrativo = codAdministrativo;
-            inValue.usuario = usuario;
-            inValue.senha = senha;
-            return ((WSCorreios.AtendeCliente)(this)).integrarUsuarioScolAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WSCorreios.pesquisarDimensoesServicoResponse> WSCorreios.AtendeCliente.pesquisarDimensoesServicoAsync(WSCorreios.pesquisarDimensoesServico request)
+        public System.Threading.Tasks.Task<WSCorreios.pesquisarDimensoesServicoResponse> pesquisarDimensoesServicoAsync(WSCorreios.pesquisarDimensoesServico request)
         {
             return base.Channel.pesquisarDimensoesServicoAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WSCorreios.pesquisarDimensoesServicoResponse> pesquisarDimensoesServicoAsync(string codigo, string embalagem)
-        {
-            WSCorreios.pesquisarDimensoesServico inValue = new WSCorreios.pesquisarDimensoesServico();
-            inValue.codigo = codigo;
-            inValue.embalagem = embalagem;
-            return ((WSCorreios.AtendeCliente)(this)).pesquisarDimensoesServicoAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WSCorreios.pesquisarEmbalagensPorServicoResponse> WSCorreios.AtendeCliente.pesquisarEmbalagensPorServicoAsync(WSCorreios.pesquisarEmbalagensPorServico request)
+        public System.Threading.Tasks.Task<WSCorreios.pesquisarEmbalagensPorServicoResponse> pesquisarEmbalagensPorServicoAsync(WSCorreios.pesquisarEmbalagensPorServico request)
         {
             return base.Channel.pesquisarEmbalagensPorServicoAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WSCorreios.pesquisarEmbalagensPorServicoResponse> pesquisarEmbalagensPorServicoAsync(string codigo)
-        {
-            WSCorreios.pesquisarEmbalagensPorServico inValue = new WSCorreios.pesquisarEmbalagensPorServico();
-            inValue.codigo = codigo;
-            return ((WSCorreios.AtendeCliente)(this)).pesquisarEmbalagensPorServicoAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WSCorreios.atualizaRemessaAgrupadaResponse> WSCorreios.AtendeCliente.atualizaRemessaAgrupadaAsync(WSCorreios.atualizaRemessaAgrupada request)
+        public System.Threading.Tasks.Task<WSCorreios.atualizaRemessaAgrupadaResponse> atualizaRemessaAgrupadaAsync(WSCorreios.atualizaRemessaAgrupada request)
         {
             return base.Channel.atualizaRemessaAgrupadaAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WSCorreios.atualizaRemessaAgrupadaResponse> atualizaRemessaAgrupadaAsync(string usuario, string senha)
-        {
-            WSCorreios.atualizaRemessaAgrupada inValue = new WSCorreios.atualizaRemessaAgrupada();
-            inValue.usuario = usuario;
-            inValue.senha = senha;
-            return ((WSCorreios.AtendeCliente)(this)).atualizaRemessaAgrupadaAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WSCorreios.solicitaPLPResponse> WSCorreios.AtendeCliente.solicitaPLPAsync(WSCorreios.solicitaPLP request)
+        public System.Threading.Tasks.Task<WSCorreios.solicitaPLPResponse> solicitaPLPAsync(WSCorreios.solicitaPLP request)
         {
             return base.Channel.solicitaPLPAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WSCorreios.solicitaPLPResponse> solicitaPLPAsync(long idPlpMaster, string numEtiqueta, string usuario, string senha)
-        {
-            WSCorreios.solicitaPLP inValue = new WSCorreios.solicitaPLP();
-            inValue.idPlpMaster = idPlpMaster;
-            inValue.numEtiqueta = numEtiqueta;
-            inValue.usuario = usuario;
-            inValue.senha = senha;
-            return ((WSCorreios.AtendeCliente)(this)).solicitaPLPAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WSCorreios.getStatusCartaoPostagemResponse> WSCorreios.AtendeCliente.getStatusCartaoPostagemAsync(WSCorreios.getStatusCartaoPostagem request)
+        public System.Threading.Tasks.Task<WSCorreios.getStatusCartaoPostagemResponse> getStatusCartaoPostagemAsync(WSCorreios.getStatusCartaoPostagem request)
         {
             return base.Channel.getStatusCartaoPostagemAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WSCorreios.getStatusCartaoPostagemResponse> getStatusCartaoPostagemAsync(string numeroCartaoPostagem, string usuario, string senha)
-        {
-            WSCorreios.getStatusCartaoPostagem inValue = new WSCorreios.getStatusCartaoPostagem();
-            inValue.numeroCartaoPostagem = numeroCartaoPostagem;
-            inValue.usuario = usuario;
-            inValue.senha = senha;
-            return ((WSCorreios.AtendeCliente)(this)).getStatusCartaoPostagemAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WSCorreios.verificaModalTransporteResponse> WSCorreios.AtendeCliente.verificaModalTransporteAsync(WSCorreios.verificaModalTransporte request)
+        public System.Threading.Tasks.Task<WSCorreios.verificaModalTransporteResponse> verificaModalTransporteAsync(WSCorreios.verificaModalTransporte request)
         {
             return base.Channel.verificaModalTransporteAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WSCorreios.verificaModalTransporteResponse> verificaModalTransporteAsync(string codigoServico, string cepOrigem, string cepDestino, string usuario, string senha)
-        {
-            WSCorreios.verificaModalTransporte inValue = new WSCorreios.verificaModalTransporte();
-            inValue.codigoServico = codigoServico;
-            inValue.cepOrigem = cepOrigem;
-            inValue.cepDestino = cepDestino;
-            inValue.usuario = usuario;
-            inValue.senha = senha;
-            return ((WSCorreios.AtendeCliente)(this)).verificaModalTransporteAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WSCorreios.buscaDataAtualResponse> WSCorreios.AtendeCliente.buscaDataAtualAsync(WSCorreios.buscaDataAtual request)
+        public System.Threading.Tasks.Task<WSCorreios.buscaDataAtualResponse> buscaDataAtualAsync(WSCorreios.buscaDataAtual request)
         {
             return base.Channel.buscaDataAtualAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WSCorreios.buscaDataAtualResponse> buscaDataAtualAsync()
-        {
-            WSCorreios.buscaDataAtual inValue = new WSCorreios.buscaDataAtual();
-            return ((WSCorreios.AtendeCliente)(this)).buscaDataAtualAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WSCorreios.buscaTarifaValeResponse> WSCorreios.AtendeCliente.buscaTarifaValeAsync(WSCorreios.buscaTarifaVale request)
+        public System.Threading.Tasks.Task<WSCorreios.buscaTarifaValeResponse> buscaTarifaValeAsync(WSCorreios.buscaTarifaVale request)
         {
             return base.Channel.buscaTarifaValeAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WSCorreios.buscaTarifaValeResponse> buscaTarifaValeAsync(string codAdministrativo, string usuario, string senha, string codServico, string cepOrigem, string cepDestino, string peso, int codFormato, double comprimento, double altura, double largura, double valorDeclarado, string servicoAdicional)
-        {
-            WSCorreios.buscaTarifaVale inValue = new WSCorreios.buscaTarifaVale();
-            inValue.codAdministrativo = codAdministrativo;
-            inValue.usuario = usuario;
-            inValue.senha = senha;
-            inValue.codServico = codServico;
-            inValue.cepOrigem = cepOrigem;
-            inValue.cepDestino = cepDestino;
-            inValue.peso = peso;
-            inValue.codFormato = codFormato;
-            inValue.comprimento = comprimento;
-            inValue.altura = altura;
-            inValue.largura = largura;
-            inValue.valorDeclarado = valorDeclarado;
-            inValue.servicoAdicional = servicoAdicional;
-            return ((WSCorreios.AtendeCliente)(this)).buscaTarifaValeAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WSCorreios.validarPostagemSimultaneaResponse> WSCorreios.AtendeCliente.validarPostagemSimultaneaAsync(WSCorreios.validarPostagemSimultanea request)
+        public System.Threading.Tasks.Task<WSCorreios.validarPostagemSimultaneaResponse> validarPostagemSimultaneaAsync(WSCorreios.validarPostagemSimultanea request)
         {
             return base.Channel.validarPostagemSimultaneaAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WSCorreios.validarPostagemSimultaneaResponse> validarPostagemSimultaneaAsync(int codAdministrativo, int codigoServico, string idCartaoPostagem, string cepDestinatario, WSCorreios.coletaSimultanea coleta, string usuario, string senha)
-        {
-            WSCorreios.validarPostagemSimultanea inValue = new WSCorreios.validarPostagemSimultanea();
-            inValue.codAdministrativo = codAdministrativo;
-            inValue.codigoServico = codigoServico;
-            inValue.idCartaoPostagem = idCartaoPostagem;
-            inValue.cepDestinatario = cepDestinatario;
-            inValue.coleta = coleta;
-            inValue.usuario = usuario;
-            inValue.senha = senha;
-            return ((WSCorreios.AtendeCliente)(this)).validarPostagemSimultaneaAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WSCorreios.getStatusPLPResponse> WSCorreios.AtendeCliente.getStatusPLPAsync(WSCorreios.getStatusPLP request)
+        public System.Threading.Tasks.Task<WSCorreios.getStatusPLPResponse> getStatusPLPAsync(WSCorreios.getStatusPLP request)
         {
             return base.Channel.getStatusPLPAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WSCorreios.getStatusPLPResponse> getStatusPLPAsync(WSCorreios.objetoPostal[] arg0, string arg1)
-        {
-            WSCorreios.getStatusPLP inValue = new WSCorreios.getStatusPLP();
-            inValue.arg0 = arg0;
-            inValue.arg1 = arg1;
-            return ((WSCorreios.AtendeCliente)(this)).getStatusPLPAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WSCorreios.pesquisarServicosAdicionaisResponse> WSCorreios.AtendeCliente.pesquisarServicosAdicionaisAsync(WSCorreios.pesquisarServicosAdicionais request)
+        public System.Threading.Tasks.Task<WSCorreios.pesquisarServicosAdicionaisResponse> pesquisarServicosAdicionaisAsync(WSCorreios.pesquisarServicosAdicionais request)
         {
             return base.Channel.pesquisarServicosAdicionaisAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WSCorreios.pesquisarServicosAdicionaisResponse> pesquisarServicosAdicionaisAsync(string codigo)
-        {
-            WSCorreios.pesquisarServicosAdicionais inValue = new WSCorreios.pesquisarServicosAdicionais();
-            inValue.codigo = codigo;
-            return ((WSCorreios.AtendeCliente)(this)).pesquisarServicosAdicionaisAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WSCorreios.buscaServicosXServicosAdicionaisResponse> WSCorreios.AtendeCliente.buscaServicosXServicosAdicionaisAsync(WSCorreios.buscaServicosXServicosAdicionais request)
+        public System.Threading.Tasks.Task<WSCorreios.buscaServicosXServicosAdicionaisResponse> buscaServicosXServicosAdicionaisAsync(WSCorreios.buscaServicosXServicosAdicionais request)
         {
             return base.Channel.buscaServicosXServicosAdicionaisAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WSCorreios.buscaServicosXServicosAdicionaisResponse> buscaServicosXServicosAdicionaisAsync(string usuario, string senha)
-        {
-            WSCorreios.buscaServicosXServicosAdicionais inValue = new WSCorreios.buscaServicosXServicosAdicionais();
-            inValue.usuario = usuario;
-            inValue.senha = senha;
-            return ((WSCorreios.AtendeCliente)(this)).buscaServicosXServicosAdicionaisAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WSCorreios.cancelarPedidoScolResponse> WSCorreios.AtendeCliente.cancelarPedidoScolAsync(WSCorreios.cancelarPedidoScol request)
+        public System.Threading.Tasks.Task<WSCorreios.cancelarPedidoScolResponse> cancelarPedidoScolAsync(WSCorreios.cancelarPedidoScol request)
         {
             return base.Channel.cancelarPedidoScolAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WSCorreios.cancelarPedidoScolResponse> cancelarPedidoScolAsync(string codAdministrativo, string idPostagem, string tipo, string usuario, string senha)
-        {
-            WSCorreios.cancelarPedidoScol inValue = new WSCorreios.cancelarPedidoScol();
-            inValue.codAdministrativo = codAdministrativo;
-            inValue.idPostagem = idPostagem;
-            inValue.tipo = tipo;
-            inValue.usuario = usuario;
-            inValue.senha = senha;
-            return ((WSCorreios.AtendeCliente)(this)).cancelarPedidoScolAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WSCorreios.bloquearObjetoResponse> WSCorreios.AtendeCliente.bloquearObjetoAsync(WSCorreios.bloquearObjeto request)
+        public System.Threading.Tasks.Task<WSCorreios.bloquearObjetoResponse> bloquearObjetoAsync(WSCorreios.bloquearObjeto request)
         {
             return base.Channel.bloquearObjetoAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WSCorreios.bloquearObjetoResponse> bloquearObjetoAsync(string numeroEtiqueta, long idPlp, WSCorreios.tipoBloqueio tipoBloqueio, WSCorreios.acao acao, string usuario, string senha)
-        {
-            WSCorreios.bloquearObjeto inValue = new WSCorreios.bloquearObjeto();
-            inValue.numeroEtiqueta = numeroEtiqueta;
-            inValue.idPlp = idPlp;
-            inValue.tipoBloqueio = tipoBloqueio;
-            inValue.acao = acao;
-            inValue.usuario = usuario;
-            inValue.senha = senha;
-            return ((WSCorreios.AtendeCliente)(this)).bloquearObjetoAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WSCorreios.buscaContratoResponse> WSCorreios.AtendeCliente.buscaContratoAsync(WSCorreios.buscaContrato request)
+        public System.Threading.Tasks.Task<WSCorreios.buscaContratoResponse> buscaContratoAsync(WSCorreios.buscaContrato request)
         {
             return base.Channel.buscaContratoAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WSCorreios.buscaContratoResponse> buscaContratoAsync(string numero, long diretoria, string usuario, string senha)
-        {
-            WSCorreios.buscaContrato inValue = new WSCorreios.buscaContrato();
-            inValue.numero = numero;
-            inValue.diretoria = diretoria;
-            inValue.usuario = usuario;
-            inValue.senha = senha;
-            return ((WSCorreios.AtendeCliente)(this)).buscaContratoAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WSCorreios.solicitaEtiquetasResponse> WSCorreios.AtendeCliente.solicitaEtiquetasAsync(WSCorreios.solicitaEtiquetas request)
+        public System.Threading.Tasks.Task<WSCorreios.solicitaEtiquetasResponse> solicitaEtiquetasAsync(WSCorreios.solicitaEtiquetas request)
         {
             return base.Channel.solicitaEtiquetasAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WSCorreios.solicitaEtiquetasResponse> solicitaEtiquetasAsync(string tipoDestinatario, string identificador, long idServico, int qtdEtiquetas, string usuario, string senha)
-        {
-            WSCorreios.solicitaEtiquetas inValue = new WSCorreios.solicitaEtiquetas();
-            inValue.tipoDestinatario = tipoDestinatario;
-            inValue.identificador = identificador;
-            inValue.idServico = idServico;
-            inValue.qtdEtiquetas = qtdEtiquetas;
-            inValue.usuario = usuario;
-            inValue.senha = senha;
-            return ((WSCorreios.AtendeCliente)(this)).solicitaEtiquetasAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WSCorreios.solicitaXmlPlpResponse> WSCorreios.AtendeCliente.solicitaXmlPlpAsync(WSCorreios.solicitaXmlPlp request)
+        public System.Threading.Tasks.Task<WSCorreios.solicitaXmlPlpResponse> solicitaXmlPlpAsync(WSCorreios.solicitaXmlPlp request)
         {
             return base.Channel.solicitaXmlPlpAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WSCorreios.solicitaXmlPlpResponse> solicitaXmlPlpAsync(long idPlpMaster, string usuario, string senha)
-        {
-            WSCorreios.solicitaXmlPlp inValue = new WSCorreios.solicitaXmlPlp();
-            inValue.idPlpMaster = idPlpMaster;
-            inValue.usuario = usuario;
-            inValue.senha = senha;
-            return ((WSCorreios.AtendeCliente)(this)).solicitaXmlPlpAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WSCorreios.validarPostagemReversaResponse> WSCorreios.AtendeCliente.validarPostagemReversaAsync(WSCorreios.validarPostagemReversa request)
+        public System.Threading.Tasks.Task<WSCorreios.validarPostagemReversaResponse> validarPostagemReversaAsync(WSCorreios.validarPostagemReversa request)
         {
             return base.Channel.validarPostagemReversaAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WSCorreios.validarPostagemReversaResponse> validarPostagemReversaAsync(string codAdministrativo, string codigoServico, string cepDestinatario, string idCartaoPostagem, WSCorreios.coletaReversa coleta, string usuario, string senha)
-        {
-            WSCorreios.validarPostagemReversa inValue = new WSCorreios.validarPostagemReversa();
-            inValue.codAdministrativo = codAdministrativo;
-            inValue.codigoServico = codigoServico;
-            inValue.cepDestinatario = cepDestinatario;
-            inValue.idCartaoPostagem = idCartaoPostagem;
-            inValue.coleta = coleta;
-            inValue.usuario = usuario;
-            inValue.senha = senha;
-            return ((WSCorreios.AtendeCliente)(this)).validarPostagemReversaAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WSCorreios.buscaClienteResponse> WSCorreios.AtendeCliente.buscaClienteAsync(WSCorreios.buscaCliente request)
+        public System.Threading.Tasks.Task<WSCorreios.buscaClienteResponse> buscaClienteAsync(WSCorreios.buscaCliente request)
         {
             return base.Channel.buscaClienteAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WSCorreios.buscaClienteResponse> buscaClienteAsync(string idContrato, string idCartaoPostagem, string usuario, string senha)
-        {
-            WSCorreios.buscaCliente inValue = new WSCorreios.buscaCliente();
-            inValue.idContrato = idContrato;
-            inValue.idCartaoPostagem = idCartaoPostagem;
-            inValue.usuario = usuario;
-            inValue.senha = senha;
-            return ((WSCorreios.AtendeCliente)(this)).buscaClienteAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WSCorreios.buscaPagamentoEntregaResponse> WSCorreios.AtendeCliente.buscaPagamentoEntregaAsync(WSCorreios.buscaPagamentoEntrega request)
+        public System.Threading.Tasks.Task<WSCorreios.buscaPagamentoEntregaResponse> buscaPagamentoEntregaAsync(WSCorreios.buscaPagamentoEntrega request)
         {
             return base.Channel.buscaPagamentoEntregaAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WSCorreios.buscaPagamentoEntregaResponse> buscaPagamentoEntregaAsync(string usuario, string senha, string contrato, string dataInicio, string dataFim, string etiqueta)
-        {
-            WSCorreios.buscaPagamentoEntrega inValue = new WSCorreios.buscaPagamentoEntrega();
-            inValue.usuario = usuario;
-            inValue.senha = senha;
-            inValue.contrato = contrato;
-            inValue.dataInicio = dataInicio;
-            inValue.dataFim = dataFim;
-            inValue.etiqueta = etiqueta;
-            return ((WSCorreios.AtendeCliente)(this)).buscaPagamentoEntregaAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WSCorreios.solicitarPostagemScolResponse> WSCorreios.AtendeCliente.solicitarPostagemScolAsync(WSCorreios.solicitarPostagemScol request)
+        public System.Threading.Tasks.Task<WSCorreios.solicitarPostagemScolResponse> solicitarPostagemScolAsync(WSCorreios.solicitarPostagemScol request)
         {
             return base.Channel.solicitarPostagemScolAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WSCorreios.solicitarPostagemScolResponse> solicitarPostagemScolAsync(int codAdministrativo, string xml, string usuario, string senha)
-        {
-            WSCorreios.solicitarPostagemScol inValue = new WSCorreios.solicitarPostagemScol();
-            inValue.codAdministrativo = codAdministrativo;
-            inValue.xml = xml;
-            inValue.usuario = usuario;
-            inValue.senha = senha;
-            return ((WSCorreios.AtendeCliente)(this)).solicitarPostagemScolAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WSCorreios.buscaServicosResponse> WSCorreios.AtendeCliente.buscaServicosAsync(WSCorreios.buscaServicos request)
+        public System.Threading.Tasks.Task<WSCorreios.buscaServicosResponse> buscaServicosAsync(WSCorreios.buscaServicos request)
         {
             return base.Channel.buscaServicosAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WSCorreios.buscaServicosResponse> buscaServicosAsync(string idContrato, string idCartaoPostagem, string usuario, string senha)
-        {
-            WSCorreios.buscaServicos inValue = new WSCorreios.buscaServicos();
-            inValue.idContrato = idContrato;
-            inValue.idCartaoPostagem = idCartaoPostagem;
-            inValue.usuario = usuario;
-            inValue.senha = senha;
-            return ((WSCorreios.AtendeCliente)(this)).buscaServicosAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WSCorreios.obterMensagemParametrizadaResponse> WSCorreios.AtendeCliente.obterMensagemParametrizadaAsync(WSCorreios.obterMensagemParametrizada request)
+        public System.Threading.Tasks.Task<WSCorreios.obterMensagemParametrizadaResponse> obterMensagemParametrizadaAsync(WSCorreios.obterMensagemParametrizada request)
         {
             return base.Channel.obterMensagemParametrizadaAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WSCorreios.obterMensagemParametrizadaResponse> obterMensagemParametrizadaAsync(short id)
-        {
-            WSCorreios.obterMensagemParametrizada inValue = new WSCorreios.obterMensagemParametrizada();
-            inValue.id = id;
-            return ((WSCorreios.AtendeCliente)(this)).obterMensagemParametrizadaAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WSCorreios.buscaOpcoesResponse> WSCorreios.AtendeCliente.buscaOpcoesAsync(WSCorreios.buscaOpcoes request)
+        public System.Threading.Tasks.Task<WSCorreios.buscaOpcoesResponse> buscaOpcoesAsync(WSCorreios.buscaOpcoes request)
         {
             return base.Channel.buscaOpcoesAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<WSCorreios.buscaOpcoesResponse> buscaOpcoesAsync(string[] listaObjetos, string tipoResultado, string usuario, string senha)
-        {
-            WSCorreios.buscaOpcoes inValue = new WSCorreios.buscaOpcoes();
-            inValue.listaObjetos = listaObjetos;
-            inValue.tipoResultado = tipoResultado;
-            inValue.usuario = usuario;
-            inValue.senha = senha;
-            return ((WSCorreios.AtendeCliente)(this)).buscaOpcoesAsync(inValue);
         }
         
         public virtual System.Threading.Tasks.Task OpenAsync()

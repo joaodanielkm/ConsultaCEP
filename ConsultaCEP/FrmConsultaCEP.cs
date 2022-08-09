@@ -19,8 +19,8 @@ namespace ConsultaCEP
                 {
                     try
                     {
-                        var endereco = ws.consultaCEP(txbCEP.Text.Trim());
-                        txbCidade.Text = endereco.ToString();
+                        var endereco = ws.consultaCEP(txbCEP.Text);
+                        //txbCidade.Text = enderec;
 
                     }
                     catch (Exception ex)
