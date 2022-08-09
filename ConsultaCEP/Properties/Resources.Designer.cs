@@ -73,9 +73,9 @@ namespace ConsultaCEP.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap endereco_1_ {
+        internal static System.Drawing.Bitmap lupa {
             get {
-                object obj = ResourceManager.GetObject("endereco(1)", resourceCulture);
+                object obj = ResourceManager.GetObject("lupa", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace ConsultaCEP.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap stop_sign_3_ {
+        internal static System.Drawing.Bitmap stop_sign {
             get {
-                object obj = ResourceManager.GetObject("stop-sign(3)", resourceCulture);
+                object obj = ResourceManager.GetObject("stop-sign", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
