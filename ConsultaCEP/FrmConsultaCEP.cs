@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
+using Correios;
 
 namespace ConsultaCEP
 {
@@ -15,12 +16,15 @@ namespace ConsultaCEP
         private void btnBuscar_Click(object sender, EventArgs e)
         {
             if(CEP.EhValidoCEP(txbCEP.Text)) {
-                using (var ws = new WSCorreios.AtendeClienteClient())
+                using (CorreiosApi correiosApi = new CorreiosApi())
                 {
                     try
                     {
-                        var endereco = ws.consultaCEP(txbCEP.Text);
-                        //txbCidade.Text = enderec;
+                        var endereco = correiosApi.consultaCEP(txbCEP.Text);
+                        txbCidade.Text = endereco.cidade;
+                        txbEstado.Text = endereco.uf;
+                        txbBairro.Text = endereco.bairro;
+                        txblogradouro.Text = endereco.end;
 
                     }
                     catch (Exception ex)

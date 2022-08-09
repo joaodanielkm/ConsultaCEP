@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net5.0-windows7.0": {
+      "Correios-Api/1.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win/Correios.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win/Correios.dll": {}
+        }
+      },
       "Google.Protobuf/3.18.0": {
         "type": "package",
         "compile": {
@@ -873,6 +882,25 @@
     }
   },
   "libraries": {
+    "Correios-Api/1.1.1": {
+      "sha512": "K16sLS8pVPndiqLmuMKokfuN/23OzaFDL/0H4YkbGzO/VYt3RIYsQ1ottjJNeZ/01WEYhgrJrEiwg/rIuInrDw==",
+      "type": "package",
+      "path": "correios-api/1.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "correios-api.1.1.1.nupkg.sha512",
+        "correios-api.nuspec",
+        "lib/portable-net45+win/Correios.dll",
+        "lib/portable-net45+win/Correios.pdb",
+        "src/CorreiosService.cs",
+        "src/ICorreiosApi.cs",
+        "src/ICorreiosApiAsync.cs",
+        "src/ICorreiosApiSync.cs",
+        "src/Properties/AssemblyInfo.cs",
+        "src/Service.cs"
+      ]
+    },
     "Google.Protobuf/3.18.0": {
       "sha512": "Jm6+nppUm9LD+XVsLFkf1YyVlAKsG5gq+Hc/Rn3Zi2pDObBI6PCH/eHBFUJdARl40DpczEdHlV3+WTPOGIXetg==",
       "type": "package",
@@ -4091,6 +4119,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0-windows7.0": [
+      "Correios-Api >= 1.1.1",
       "Google.Protobuf >= 3.18.0",
       "Grpc.Net.ClientFactory >= 2.40.0",
       "Grpc.Tools >= 2.40.0",
@@ -4126,7 +4155,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0-windows"
+        "net5.0-windows7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -4148,6 +4177,10 @@
       "net5.0-windows7.0": {
         "targetAlias": "net5.0-windows",
         "dependencies": {
+          "Correios-Api": {
+            "target": "Package",
+            "version": "[1.1.1, )"
+          },
           "Google.Protobuf": {
             "target": "Package",
             "version": "[3.18.0, )"
@@ -4220,5 +4253,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Correios-Api 1.1.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Correios-Api",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
 }
