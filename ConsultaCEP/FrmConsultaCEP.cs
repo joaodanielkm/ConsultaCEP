@@ -17,5 +17,9 @@ namespace ConsultaCEP
             InitializeComponent();
         }
 
+        private void grpBoxResultado_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

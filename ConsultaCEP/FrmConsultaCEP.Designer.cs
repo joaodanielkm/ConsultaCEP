@@ -54,9 +54,10 @@
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.Color.Transparent;
-            this.button1.Location = new System.Drawing.Point(144, 20);
+            this.button1.Location = new System.Drawing.Point(123, 21);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(43, 34);
+            this.button1.Size = new System.Drawing.Size(37, 36);
             this.button1.TabIndex = 0;
             this.button1.UseVisualStyleBackColor = true;
             // 
@@ -67,9 +68,10 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.Color.Transparent;
             this.button2.Image = global::ConsultaCEP.Properties.Resources.refresh;
-            this.button2.Location = new System.Drawing.Point(337, 24);
+            this.button2.Location = new System.Drawing.Point(288, 26);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(36, 34);
+            this.button2.Size = new System.Drawing.Size(31, 36);
             this.button2.TabIndex = 1;
             this.button2.UseVisualStyleBackColor = true;
             // 
@@ -79,28 +81,30 @@
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.ForeColor = System.Drawing.Color.Transparent;
-            this.button3.Location = new System.Drawing.Point(374, 23);
+            this.button3.Location = new System.Drawing.Point(321, 25);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(43, 35);
+            this.button3.Size = new System.Drawing.Size(37, 37);
             this.button3.TabIndex = 2;
             this.button3.UseVisualStyleBackColor = true;
             // 
             // lblCEP
             // 
             this.lblCEP.AutoSize = true;
-            this.lblCEP.Font = new System.Drawing.Font("Courier New", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblCEP.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblCEP.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.lblCEP.Location = new System.Drawing.Point(18, 13);
+            this.lblCEP.Location = new System.Drawing.Point(15, 14);
             this.lblCEP.Name = "lblCEP";
-            this.lblCEP.Size = new System.Drawing.Size(35, 16);
+            this.lblCEP.Size = new System.Drawing.Size(39, 16);
             this.lblCEP.TabIndex = 3;
             this.lblCEP.Text = "CEP:";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(18, 31);
+            this.textBox1.Location = new System.Drawing.Point(15, 33);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(120, 21);
+            this.textBox1.Size = new System.Drawing.Size(103, 21);
             this.textBox1.TabIndex = 4;
             // 
             // grpBoxResultado
@@ -113,79 +117,95 @@
             this.grpBoxResultado.Controls.Add(this.label2);
             this.grpBoxResultado.Controls.Add(this.textBox2);
             this.grpBoxResultado.Controls.Add(this.label1);
+            this.grpBoxResultado.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.grpBoxResultado.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.grpBoxResultado.Location = new System.Drawing.Point(12, 70);
+            this.grpBoxResultado.Location = new System.Drawing.Point(10, 75);
+            this.grpBoxResultado.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.grpBoxResultado.Name = "grpBoxResultado";
-            this.grpBoxResultado.Size = new System.Drawing.Size(405, 158);
+            this.grpBoxResultado.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.grpBoxResultado.Size = new System.Drawing.Size(347, 169);
             this.grpBoxResultado.TabIndex = 5;
             this.grpBoxResultado.TabStop = false;
             this.grpBoxResultado.Text = "Endereço do CEP";
+            this.grpBoxResultado.Enter += new System.EventHandler(this.grpBoxResultado_Enter);
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(215, 104);
+            this.textBox5.Font = new System.Drawing.Font("Courier New", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox5.Location = new System.Drawing.Point(184, 111);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(184, 21);
+            this.textBox5.Size = new System.Drawing.Size(158, 20);
             this.textBox5.TabIndex = 12;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Courier New", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label4.Location = new System.Drawing.Point(215, 86);
+            this.label4.Location = new System.Drawing.Point(184, 92);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(84, 15);
+            this.label4.Size = new System.Drawing.Size(84, 14);
             this.label4.TabIndex = 11;
             this.label4.Text = "Logradouro:";
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(6, 104);
+            this.textBox4.Font = new System.Drawing.Font("Courier New", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox4.Location = new System.Drawing.Point(5, 111);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(173, 21);
+            this.textBox4.Size = new System.Drawing.Size(149, 20);
             this.textBox4.TabIndex = 10;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Courier New", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label3.Location = new System.Drawing.Point(6, 86);
+            this.label3.Location = new System.Drawing.Point(5, 92);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(56, 15);
+            this.label3.Size = new System.Drawing.Size(56, 14);
             this.label3.TabIndex = 9;
             this.label3.Text = "Bairro:";
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(6, 46);
+            this.textBox3.Font = new System.Drawing.Font("Courier New", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox3.Location = new System.Drawing.Point(5, 49);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(174, 21);
+            this.textBox3.Size = new System.Drawing.Size(150, 20);
             this.textBox3.TabIndex = 8;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Courier New", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label2.Location = new System.Drawing.Point(6, 28);
+            this.label2.Location = new System.Drawing.Point(5, 30);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(56, 15);
+            this.label2.Size = new System.Drawing.Size(56, 14);
             this.label2.TabIndex = 7;
             this.label2.Text = "Cidade:";
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(216, 46);
+            this.textBox2.Font = new System.Drawing.Font("Courier New", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox2.Location = new System.Drawing.Point(185, 49);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(120, 21);
+            this.textBox2.Size = new System.Drawing.Size(103, 20);
             this.textBox2.TabIndex = 6;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Courier New", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label1.Location = new System.Drawing.Point(216, 28);
+            this.label1.Location = new System.Drawing.Point(185, 30);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(56, 15);
+            this.label1.Size = new System.Drawing.Size(56, 14);
             this.label1.TabIndex = 5;
             this.label1.Text = "Estado:";
             // 
@@ -196,9 +216,10 @@
             this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSair.ForeColor = System.Drawing.Color.Transparent;
             this.btnSair.Image = global::ConsultaCEP.Properties.Resources.stop_sign;
-            this.btnSair.Location = new System.Drawing.Point(374, 23);
+            this.btnSair.Location = new System.Drawing.Point(321, 25);
+            this.btnSair.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(37, 34);
+            this.btnSair.Size = new System.Drawing.Size(36, 36);
             this.btnSair.TabIndex = 6;
             this.btnSair.UseVisualStyleBackColor = true;
             // 
@@ -209,18 +230,19 @@
             this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscar.ForeColor = System.Drawing.Color.Transparent;
             this.btnBuscar.Image = global::ConsultaCEP.Properties.Resources.endereco;
-            this.btnBuscar.Location = new System.Drawing.Point(147, 23);
+            this.btnBuscar.Location = new System.Drawing.Point(126, 25);
+            this.btnBuscar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(40, 34);
+            this.btnBuscar.Size = new System.Drawing.Size(34, 36);
             this.btnBuscar.TabIndex = 7;
             this.btnBuscar.UseVisualStyleBackColor = true;
             // 
             // FrmConsultaCEP
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(430, 244);
+            this.ClientSize = new System.Drawing.Size(369, 260);
             this.ControlBox = false;
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.btnSair);
@@ -230,9 +252,10 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Font = new System.Drawing.Font("Courier New", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Font = new System.Drawing.Font("Franklin Gothic Demi Cond", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FrmConsultaCEP";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Consulta CEP";
