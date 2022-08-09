@@ -1,25 +1,82 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ConsultaCEP
 {
     public partial class FrmConsultaCEP : Form
     {
+        Processo.ProcessoCEP CEP = new Processo.ProcessoCEP();
         public FrmConsultaCEP()
         {
             InitializeComponent();
         }
 
-        private void grpBoxResultado_Enter(object sender, EventArgs e)
+        private void btnBuscar_Click(object sender, EventArgs e)
         {
+            if(CEP.EhValidoCEP(txbCEP.Text)) {
+                using (var ws = new WSCorreios.AtendeClienteClient())
+                {
+                    try
+                    {
+                        var endereco = ws.consultaCEP(txbCEP.Text.Trim());
+                        txbCidade.Text = endereco.ToString();
 
+                    }
+                    catch (Exception ex)
+                    {
+
+                        MessageBox.Show(ex.Message, this.Text, MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                    }
+                }
+            } else
+            {
+                txbCEP.BackColor = Color.FromArgb(255, 95, 95);
+                txbCEP.Focus();
+                MessageBox.Show("Favor informe um CEP valido!", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                
+            }
+        }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            txbCEP.Text = String.Empty;
+            txbEstado.Text = String.Empty;
+            txbCidade.Text =String.Empty;
+            txbBairro.Text = String.Empty;
+            txblogradouro.Text = String.Empty;
+            txbCEP.BackColor = Color.White;
+            txbCEP.Focus();
+        }
+
+        private void txbBairro_TextChanged(object sender, EventArgs e)
+        {
+            txbBairro.SelectAll();
+        }
+
+        private void txblogradouro_TextChanged(object sender, EventArgs e)
+        {
+            txblogradouro.SelectAll();
+        }
+
+        private void txbEstado_TextChanged(object sender, EventArgs e)
+        {
+            txbEstado.SelectAll();
+        }
+
+        private void txbCidade_TextChanged(object sender, EventArgs e)
+        {
+            txbCidade.SelectAll();
+        }
+
+        private void txbCEP_Click(object sender, EventArgs e)
+        {
+            txbCEP.SelectAll();
         }
     }
 }

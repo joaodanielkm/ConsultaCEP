@@ -33,18 +33,18 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.lblCEP = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.grpBoxResultado = new System.Windows.Forms.GroupBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txblogradouro = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txbBairro = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txbCidade = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txbEstado = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnSair = new System.Windows.Forms.Button();
             this.btnBuscar = new System.Windows.Forms.Button();
+            this.txbCEP = new System.Windows.Forms.MaskedTextBox();
             this.grpBoxResultado.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -74,6 +74,7 @@
             this.button2.Size = new System.Drawing.Size(31, 36);
             this.button2.TabIndex = 1;
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -99,23 +100,15 @@
             this.lblCEP.TabIndex = 3;
             this.lblCEP.Text = "CEP:";
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(15, 33);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(103, 21);
-            this.textBox1.TabIndex = 4;
-            // 
             // grpBoxResultado
             // 
-            this.grpBoxResultado.Controls.Add(this.textBox5);
+            this.grpBoxResultado.Controls.Add(this.txblogradouro);
             this.grpBoxResultado.Controls.Add(this.label4);
-            this.grpBoxResultado.Controls.Add(this.textBox4);
+            this.grpBoxResultado.Controls.Add(this.txbBairro);
             this.grpBoxResultado.Controls.Add(this.label3);
-            this.grpBoxResultado.Controls.Add(this.textBox3);
+            this.grpBoxResultado.Controls.Add(this.txbCidade);
             this.grpBoxResultado.Controls.Add(this.label2);
-            this.grpBoxResultado.Controls.Add(this.textBox2);
+            this.grpBoxResultado.Controls.Add(this.txbEstado);
             this.grpBoxResultado.Controls.Add(this.label1);
             this.grpBoxResultado.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.grpBoxResultado.ForeColor = System.Drawing.SystemColors.HotTrack;
@@ -127,16 +120,19 @@
             this.grpBoxResultado.TabIndex = 5;
             this.grpBoxResultado.TabStop = false;
             this.grpBoxResultado.Text = "Endereço do CEP";
-            this.grpBoxResultado.Enter += new System.EventHandler(this.grpBoxResultado_Enter);
             // 
-            // textBox5
+            // txblogradouro
             // 
-            this.textBox5.Font = new System.Drawing.Font("Courier New", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox5.Location = new System.Drawing.Point(184, 111);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(158, 20);
-            this.textBox5.TabIndex = 12;
+            this.txblogradouro.BackColor = System.Drawing.Color.White;
+            this.txblogradouro.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txblogradouro.Font = new System.Drawing.Font("Courier New", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txblogradouro.Location = new System.Drawing.Point(184, 111);
+            this.txblogradouro.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txblogradouro.Name = "txblogradouro";
+            this.txblogradouro.ReadOnly = true;
+            this.txblogradouro.Size = new System.Drawing.Size(158, 20);
+            this.txblogradouro.TabIndex = 12;
+            this.txblogradouro.TextChanged += new System.EventHandler(this.txblogradouro_TextChanged);
             // 
             // label4
             // 
@@ -149,14 +145,18 @@
             this.label4.TabIndex = 11;
             this.label4.Text = "Logradouro:";
             // 
-            // textBox4
+            // txbBairro
             // 
-            this.textBox4.Font = new System.Drawing.Font("Courier New", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox4.Location = new System.Drawing.Point(5, 111);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(149, 20);
-            this.textBox4.TabIndex = 10;
+            this.txbBairro.BackColor = System.Drawing.Color.White;
+            this.txbBairro.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txbBairro.Font = new System.Drawing.Font("Courier New", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txbBairro.Location = new System.Drawing.Point(5, 111);
+            this.txbBairro.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txbBairro.Name = "txbBairro";
+            this.txbBairro.ReadOnly = true;
+            this.txbBairro.Size = new System.Drawing.Size(149, 20);
+            this.txbBairro.TabIndex = 10;
+            this.txbBairro.TextChanged += new System.EventHandler(this.txbBairro_TextChanged);
             // 
             // label3
             // 
@@ -169,14 +169,18 @@
             this.label3.TabIndex = 9;
             this.label3.Text = "Bairro:";
             // 
-            // textBox3
+            // txbCidade
             // 
-            this.textBox3.Font = new System.Drawing.Font("Courier New", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox3.Location = new System.Drawing.Point(5, 49);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(150, 20);
-            this.textBox3.TabIndex = 8;
+            this.txbCidade.BackColor = System.Drawing.Color.White;
+            this.txbCidade.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txbCidade.Font = new System.Drawing.Font("Courier New", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txbCidade.Location = new System.Drawing.Point(5, 49);
+            this.txbCidade.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txbCidade.Name = "txbCidade";
+            this.txbCidade.ReadOnly = true;
+            this.txbCidade.Size = new System.Drawing.Size(150, 20);
+            this.txbCidade.TabIndex = 8;
+            this.txbCidade.TextChanged += new System.EventHandler(this.txbCidade_TextChanged);
             // 
             // label2
             // 
@@ -189,14 +193,18 @@
             this.label2.TabIndex = 7;
             this.label2.Text = "Cidade:";
             // 
-            // textBox2
+            // txbEstado
             // 
-            this.textBox2.Font = new System.Drawing.Font("Courier New", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox2.Location = new System.Drawing.Point(185, 49);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(103, 20);
-            this.textBox2.TabIndex = 6;
+            this.txbEstado.BackColor = System.Drawing.Color.White;
+            this.txbEstado.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txbEstado.Font = new System.Drawing.Font("Courier New", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txbEstado.Location = new System.Drawing.Point(185, 49);
+            this.txbEstado.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txbEstado.Name = "txbEstado";
+            this.txbEstado.ReadOnly = true;
+            this.txbEstado.Size = new System.Drawing.Size(103, 20);
+            this.txbEstado.TabIndex = 6;
+            this.txbEstado.TextChanged += new System.EventHandler(this.txbEstado_TextChanged);
             // 
             // label1
             // 
@@ -222,6 +230,7 @@
             this.btnSair.Size = new System.Drawing.Size(36, 36);
             this.btnSair.TabIndex = 6;
             this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // btnBuscar
             // 
@@ -236,6 +245,16 @@
             this.btnBuscar.Size = new System.Drawing.Size(34, 36);
             this.btnBuscar.TabIndex = 7;
             this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
+            // 
+            // txbCEP
+            // 
+            this.txbCEP.Location = new System.Drawing.Point(15, 36);
+            this.txbCEP.Mask = "00000-999";
+            this.txbCEP.Name = "txbCEP";
+            this.txbCEP.Size = new System.Drawing.Size(100, 21);
+            this.txbCEP.TabIndex = 8;
+            this.txbCEP.Click += new System.EventHandler(this.txbCEP_Click);
             // 
             // FrmConsultaCEP
             // 
@@ -244,10 +263,10 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(369, 260);
             this.ControlBox = false;
+            this.Controls.Add(this.txbCEP);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.grpBoxResultado);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.lblCEP);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -272,17 +291,17 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label lblCEP;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.GroupBox grpBoxResultado;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txblogradouro;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txbBairro;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txbCidade;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txbEstado;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnSair;
         private System.Windows.Forms.Button btnBuscar;
+        private System.Windows.Forms.MaskedTextBox txbCEP;
     }
 }
