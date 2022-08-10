@@ -32,8 +32,7 @@ namespace ConsultaCEP
                         
                         MessageBox.Show(ex.Message, this.Text, MessageBoxButtons.OK, MessageBoxIcon.Stop);
                         txbCEP.BackColor = Color.FromArgb(255, 160, 160);
-                        txbCEP.Text = String.Empty;
-                        txbCEP.SelectAll();
+                        this.button2_Click(null, null);
                     }
                 }
             } else
