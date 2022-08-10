@@ -4,7 +4,6 @@ C:\Users\User\Projetos\ConsultaCEP\ConsultaCEP\bin\Release\net5.0-windows\Consul
 C:\Users\User\Projetos\ConsultaCEP\ConsultaCEP\bin\Release\net5.0-windows\ConsultaCEP.runtimeconfig.dev.json
 C:\Users\User\Projetos\ConsultaCEP\ConsultaCEP\bin\Release\net5.0-windows\ConsultaCEP.dll
 C:\Users\User\Projetos\ConsultaCEP\ConsultaCEP\bin\Release\net5.0-windows\ConsultaCEP.pdb
-C:\Users\User\Projetos\ConsultaCEP\ConsultaCEP\bin\Release\net5.0-windows\Correios.Net.dll
 C:\Users\User\Projetos\ConsultaCEP\ConsultaCEP\bin\Release\net5.0-windows\Google.Protobuf.dll
 C:\Users\User\Projetos\ConsultaCEP\ConsultaCEP\bin\Release\net5.0-windows\Grpc.Core.Api.dll
 C:\Users\User\Projetos\ConsultaCEP\ConsultaCEP\bin\Release\net5.0-windows\Grpc.Net.Client.dll
@@ -48,3 +47,4 @@ C:\Users\User\Projetos\ConsultaCEP\ConsultaCEP\obj\Release\net5.0-windows\refint
 C:\Users\User\Projetos\ConsultaCEP\ConsultaCEP\obj\Release\net5.0-windows\ConsultaCEP.pdb
 C:\Users\User\Projetos\ConsultaCEP\ConsultaCEP\obj\Release\net5.0-windows\ConsultaCEP.genruntimeconfig.cache
 C:\Users\User\Projetos\ConsultaCEP\ConsultaCEP\obj\Release\net5.0-windows\ref\ConsultaCEP.dll
+C:\Users\User\Projetos\ConsultaCEP\ConsultaCEP\bin\Release\net5.0-windows\Correios.dll

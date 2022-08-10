@@ -2,13 +2,13 @@
   "version": 3,
   "targets": {
     "net5.0-windows7.0": {
-      "Correios.CEP.Net/1.1.6": {
+      "Correios-Api/1.1.1": {
         "type": "package",
         "compile": {
-          "lib/Correios.Net.dll": {}
+          "lib/portable-net45+win/Correios.dll": {}
         },
         "runtime": {
-          "lib/Correios.Net.dll": {}
+          "lib/portable-net45+win/Correios.dll": {}
         }
       },
       "Google.Protobuf/3.18.0": {
@@ -881,13 +881,13 @@
       }
     },
     "net5.0-windows7.0/win-x86": {
-      "Correios.CEP.Net/1.1.6": {
+      "Correios-Api/1.1.1": {
         "type": "package",
         "compile": {
-          "lib/Correios.Net.dll": {}
+          "lib/portable-net45+win/Correios.dll": {}
         },
         "runtime": {
-          "lib/Correios.Net.dll": {}
+          "lib/portable-net45+win/Correios.dll": {}
         }
       },
       "Google.Protobuf/3.18.0": {
@@ -1949,17 +1949,23 @@
     }
   },
   "libraries": {
-    "Correios.CEP.Net/1.1.6": {
-      "sha512": "5xiGLVdvGxlG5SnOYHusZnAyveuxVQaqTkW002iV7sFeWZlhzxaUUE/ghjhnr+dh6ic+HauYnY9zGcg74fzH2Q==",
+    "Correios-Api/1.1.1": {
+      "sha512": "K16sLS8pVPndiqLmuMKokfuN/23OzaFDL/0H4YkbGzO/VYt3RIYsQ1ottjJNeZ/01WEYhgrJrEiwg/rIuInrDw==",
       "type": "package",
-      "path": "correios.cep.net/1.1.6",
+      "path": "correios-api/1.1.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "correios.cep.net.1.1.6.nupkg.sha512",
-        "correios.cep.net.nuspec",
-        "lib/Correios.Net.dll",
-        "lib/Correios.Net.pdb"
+        "correios-api.1.1.1.nupkg.sha512",
+        "correios-api.nuspec",
+        "lib/portable-net45+win/Correios.dll",
+        "lib/portable-net45+win/Correios.pdb",
+        "src/CorreiosService.cs",
+        "src/ICorreiosApi.cs",
+        "src/ICorreiosApiAsync.cs",
+        "src/ICorreiosApiSync.cs",
+        "src/Properties/AssemblyInfo.cs",
+        "src/Service.cs"
       ]
     },
     "Google.Protobuf/3.18.0": {
@@ -5733,7 +5739,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0-windows7.0": [
-      "Correios.CEP.Net >= 1.1.6",
+      "Correios-Api >= 1.1.1",
       "Google.Protobuf >= 3.18.0",
       "Grpc.Net.ClientFactory >= 2.40.0",
       "Grpc.Tools >= 2.40.0",
@@ -5791,9 +5797,9 @@
       "net5.0-windows7.0": {
         "targetAlias": "net5.0-windows",
         "dependencies": {
-          "Correios.CEP.Net": {
+          "Correios-Api": {
             "target": "Package",
-            "version": "[1.1.6, )"
+            "version": "[1.1.1, )"
           },
           "Google.Protobuf": {
             "target": "Package",
@@ -5878,8 +5884,8 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Correios.CEP.Net 1.1.6' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Correios.CEP.Net",
+      "message": "Package 'Correios-Api 1.1.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Correios-Api",
       "targetGraphs": [
         "net5.0-windows7.0"
       ]

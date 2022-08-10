@@ -13,7 +13,7 @@ namespace ConsultaCEP
             InitializeComponent();
         }
 
-        private void btnBuscar_Click(object sender, EventArgs e)
+        public void btnBuscar_Click(object sender, EventArgs e)
         {
             if(CEP.EhValidoCEP(txbCEP.Text)) {
                 using (CorreiosApi correiosApi = new CorreiosApi())
@@ -29,17 +29,22 @@ namespace ConsultaCEP
                     }
                     catch (Exception ex)
                     {
-
+                        
                         MessageBox.Show(ex.Message, this.Text, MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                        txbCEP.BackColor = Color.FromArgb(255, 160, 160);
+                        txbCEP.Text = String.Empty;
+                        txbCEP.SelectAll();
                     }
                 }
             } else
             {
-                txbCEP.BackColor = Color.FromArgb(255, 95, 95);
-                txbCEP.Focus();
+                txbCEP.BackColor = Color.FromArgb(255, 160, 160);
                 MessageBox.Show("Favor informe um CEP valido!", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Stop);
-                
+                this.button2_Click(null, null);
+                return;
             }
+            txbCEP.Focus();
+            txbCEP.SelectAll();
         }
 
         private void btnSair_Click(object sender, EventArgs e)
@@ -47,7 +52,7 @@ namespace ConsultaCEP
             this.Close();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        public void button2_Click(object sender, EventArgs e)
         {
             txbCEP.Text = String.Empty;
             txbEstado.Text = String.Empty;
@@ -58,29 +63,43 @@ namespace ConsultaCEP
             txbCEP.Focus();
         }
 
-        private void txbBairro_TextChanged(object sender, EventArgs e)
+        private void txbCEP_Click(object sender, EventArgs e)
         {
-            txbBairro.SelectAll();
+            txbCEP.SelectAll();
         }
 
-        private void txblogradouro_TextChanged(object sender, EventArgs e)
-        {
-            txblogradouro.SelectAll();
-        }
-
-        private void txbEstado_TextChanged(object sender, EventArgs e)
-        {
-            txbEstado.SelectAll();
-        }
-
-        private void txbCidade_TextChanged(object sender, EventArgs e)
+        private void txbCidade_MouseClick(object sender, MouseEventArgs e)
         {
             txbCidade.SelectAll();
         }
 
-        private void txbCEP_Click(object sender, EventArgs e)
+        private void txbEstado_MouseClick(object sender, MouseEventArgs e)
         {
-            txbCEP.SelectAll();
+            txbEstado.SelectAll();
+        }
+
+        private void txbBairro_MouseClick(object sender, MouseEventArgs e)
+        {
+            txbBairro.SelectAll();
+        }
+
+        private void txblogradouro_MouseClick(object sender, MouseEventArgs e)
+        {
+            txblogradouro.SelectAll();
+        }
+
+        private void txbCEP_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                //this.btnBuscar_Click(sender, e);
+                btnBuscar.Focus();
+            }
+        }
+
+        private void txbCEP_TextChanged(object sender, EventArgs e)
+        {
+            txbCEP.BackColor = Color.White;
         }
     }
 }

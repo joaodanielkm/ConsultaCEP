@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Euu1Cb0ppxlmFsoQVpKCE71OnDzUaT3s6T9IWOfJ1Phrg0w2Dak1+hfQcqYHw1K2WDyQqwT3vAzTJKiLv89w9g==",
+  "dgSpecHash": "f9SKazXT0FgqdNV4jMr2tZuPmezG/BlAxMyZKaJdNPzkAQf2crCxb8PHAcbs1ERvUHPVpX2DB8D+rdGlT4bvOg==",
   "success": true,
   "projectFilePath": "C:\\Users\\User\\Projetos\\ConsultaCEP\\ConsultaCEP\\ConsultaCEP.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\User\\.nuget\\packages\\correios.cep.net\\1.1.6\\correios.cep.net.1.1.6.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\correios-api\\1.1.1\\correios-api.1.1.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\google.protobuf\\3.18.0\\google.protobuf.3.18.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\grpc.core.api\\2.40.0\\grpc.core.api.2.40.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\grpc.net.client\\2.40.0\\grpc.net.client.2.40.0.nupkg.sha512",
@@ -99,8 +99,8 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Correios.CEP.Net 1.1.6' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Correios.CEP.Net",
+      "message": "Package 'Correios-Api 1.1.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Correios-Api",
       "targetGraphs": [
         "net5.0-windows7.0"
       ]
